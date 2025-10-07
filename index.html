@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pesona Alam Nusantara</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: #f6f3eb;
+      color: #2f2b28;
+    }
+    header {
+      background: linear-gradient(to right, #3b7a57, #8b5a2b);
+      color: #fff;
+      padding: 35px 20px;
+      text-align: center;
+    }
+    h1 { margin: 0; font-size: 2.3rem; }
+    .lead { font-size: 1rem; color: #e5e5e5; margin-top: 6px; }
+    .container {
+      max-width: 1100px;
+      margin: 25px auto;
+      background: #fffdf8;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      padding: 25px;
+    }
+    table.main {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+    }
+    table.main caption {
+      font-weight: bold;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+      color: #3b7a57;
+    }
+    table.main th, table.main td {
+      border: 1px solid #d8d2c4;
+      padding: 10px;
+      vertical-align: top;
+    }
+    table.main th { background: #e3decf; }
+    .hero {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin: 25px 0;
+    }
+    .hero img {
+      width: 350px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 3px solid #8b5a2b;
+    }
+    .feature-box {
+      background: #f5f2e8;
+      border-radius: 8px;
+      padding: 12px;
+      margin-top: 10px;
+      border-left: 5px solid #3b7a57;
+    }
+    footer {
+      text-align: center;
+      color: #5c5038;
+      padding: 15px;
+      font-size: 0.9rem;
+      border-top: 2px solid #d8d2c4;
+      margin-top: 20px;
+    }
+    @media (max-width:768px){
+      .hero{flex-direction:column;}
+      .hero img{width:100%;height:auto;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pesona Alam Nusantara</h1>
+    <p class="lead">Menjelajahi Keindahan NTT, Sumatra Utara, Toraja, dan Kalimantan</p>
+  </header>
+
+  <div class="container">
+
+    <table class="main" border="1" cellpadding="6" cellspacing="3">
+      <caption>Destinasi Wisata Unggulan</caption>
+      <tr>
+        <th>Gambar</th>
+        <th>Nama Tempat</th>
+        <th>Lokasi</th>
+        <th>Deskripsi</th>
+      </tr>
+      <tr>
+        <td><img src="https://picsum.photos/seed/kelimutu/400/250" width="220" alt="Danau Kelimutu"></td>
+        <td>Danau Kelimutu</td>
+        <td>Ende, Nusa Tenggara Timur</td>
+        <td>Danau tiga warna yang berubah-ubah warnanya ini menjadi ikon wisata alam NTT yang memukau dan misterius.</td>
+      </tr>
+      <tr>
+        <td><img src="https://picsum.photos/seed/toba/400/250" width="220" alt="Danau Toba"></td>
+        <td>Danau Toba</td>
+        <td>Sumatra Utara</td>
+        <td>Danau vulkanik terbesar di dunia dengan Pulau Samosir di tengahnya, menyuguhkan panorama alam dan budaya Batak yang indah.</td>
+      </tr>
+      <tr>
+        <td><img src="https://picsum.photos/seed/toraja/400/250" width="220" alt="Tana Toraja"></td>
+        <td>Tana Toraja</td>
+        <td>Sulawesi Selatan</td>
+        <td>Daerah pegunungan yang kaya budaya dengan rumah adat Tongkonan dan upacara adat Rambu Solo’ yang unik.</td>
+      </tr>
+      <tr>
+        <td><img src="https://picsum.photos/seed/tanjungputing/400/250" width="220" alt="Tanjung Puting"></td>
+        <td>Taman Nasional Tanjung Puting</td>
+        <td>Kalimantan Tengah</td>
+        <td>Hutan tropis alami habitat orangutan dan satwa langka lainnya. Wisatawan dapat menyusuri sungai dengan kapal klotok.</td>
+      </tr>
+    </table>
+
+    <div class="hero">
+      <img src="https://picsum.photos/seed/tobaexplore/700/400" alt="Danau Toba">
+      <div>
+        <h2>Menikmati Pesona Danau Toba</h2>
+        <p>Suasana tenang, udara sejuk, dan pemandangan pegunungan yang indah menjadikan Danau Toba destinasi wisata favorit di Sumatra Utara.</p>
+        <div class="feature-box">
+          <strong>Tips:</strong> Kunjungi saat musim kemarau agar air danau tampak jernih dan pemandangan lebih menakjubkan.
+        </div>
+      </div>
+    </div>
+
+    <table class="main" border="1" cellpadding="6" cellspacing="3">
+      <caption>Paket Wisata Pilihan</caption>
+      <tr>
+        <th>Paket</th><th>Durasi</th><th>Fasilitas</th><th>Harga</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Paket Jelajah Alam</td>
+        <td>5 Hari</td>
+        <td>Transportasi, Penginapan, dan Pemandu Wisata</td>
+        <td rowspan="2">Rp 7.900.000</td>
+      </tr>
+      <tr>
+        <td>7 Hari</td>
+        <td>Termasuk Tur Budaya dan Kuliner Lokal</td>
+      </tr>
+    </table>
+
+    <table class="main" border="1" cellpadding="8" cellspacing="4">
+      <tr>
+        <td colspan="2" align="center" bgcolor="#e3decf"><strong>Promo Spesial Oktober 2025</strong><br>Diskon 20% untuk perjalanan grup ke NTT dan Kalimantan!</td>
+      </tr>
+      <tr>
+        <td width="60%">
+          <h4>Itinerary Singkat</h4>
+          <ol>
+            <li>Hari 1: Ende - Danau Kelimutu</li>
+            <li>Hari 2: Wisata budaya Wae Rebo</li>
+            <li>Hari 3: Medan - Danau Toba</li>
+            <li>Hari 4: Toraja - Rumah adat Tongkonan</li>
+            <li>Hari 5: Kalimantan - Tanjung Puting</li>
+          </ol>
+        </td>
+        <td valign="top">
+          <h4>Kontak</h4>
+          <p>Email: info@pesonaindonesia.id<br>Telp: +62 812 3456 7890<br>IG: @pesonaindonesia</p>
+        </td>
+      </tr>
+    </table>
+
+    <footer>
+      <p>© 2025 Pesona Alam Nusantara | Dibuat untuk tugas promosi wisata Indonesia</p>
+      <p>Selamat menikmati liburan bersama keluarga semoga sehat dan bahagia selalu </p>
+      </b>Universitas Pamulang - Teknik Informatika</p>
+    </footer>
+
+  </div>
+</body>
+</html>
